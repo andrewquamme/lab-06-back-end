@@ -10,6 +10,7 @@ require('dotenv').config();
 //Application Setup 
 const PORT = process.env.PORT;
 const app = express();
+app.use(cors());
 
 app.get('/location', (request, response) =>{
   //Log in this for proof of life
@@ -42,5 +43,5 @@ function Location(data) {
 //Make sure server is listening for requests
 
 app.listen(PORT, ()=> {
-  console.log(`server up on ${PORT} port`);
+  console.log(`server up on port ${PORT}`);
 });
