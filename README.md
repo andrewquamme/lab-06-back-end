@@ -7,8 +7,8 @@ Number and name of feature: Feature #1: Obtain Latitude and Longitude
 
 Estimate of time needed to complete: 2 hours
 
-Start time: _____
+Start time: 10:30
 
-Finish time: _____
+Finish time: 12:30
 
-Actual time needed to complete: _____
+Actual time needed to complete: 2 hours
